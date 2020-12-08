@@ -1,0 +1,188 @@
+body{background-color: black; 
+  font-family: 'Noto Sans KR', sans-serif;}
+
+p{color: white;}
+
+.st96{animation: draw1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-delay: 6.5s;
+    animation-timing-function: ease-in-out;}
+
+@keyframes draw1 {
+  to {stroke-dashoffset: 0;}
+  }
+
+.st97{animation: draw2;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-delay: 6.5s;
+    animation-timing-function: ease-in-out;}
+
+@keyframes draw2 {
+  to {stroke-dashoffset: 0;}
+  }
+
+.st98{animation: draw3;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-delay: 6.5s;
+    animation-timing-function: ease-in-out;}
+
+@keyframes draw3 {
+  to {stroke-dashoffset: 0;}
+  }
+
+.st99{animation: draw4;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-delay: 6.5s;
+    animation-timing-function: ease-in-out;}
+
+@keyframes draw4 {
+  to {stroke-dashoffset: 0;}
+  }
+
+.bg-img{background-image: url(../img/back.png);
+      background-size: cover;
+      background-position:0% 50%;
+      width: 100%;
+      height: 100%;
+      position: absolute;}
+
+.bg2{background-image: url(../img/fog.png);
+      background-size: cover;
+      background-position:0% 50%;
+      width: 100%;
+      height: 100%;
+      position: absolute;}
+
+.p{animation: p;
+  animation-duration: 3s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 5.4s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes p
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.title{animation: title;
+  animation-duration: 3s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes title
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.title2{animation: title2;
+  animation-duration: 3.5s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes title2
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.title3{animation: title3;
+  animation-duration: 3s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 2.5s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes title3
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.title4{animation: title4;
+  animation-duration: 2.5s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 3.5s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes title4
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.title5{animation: title5;
+  animation-duration: 3s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 4s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes title5
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.title6{animation: title6;
+  animation-duration: 4.5s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 4.7s;
+  animation-timing-function: ease-in-out;}
+
+@keyframes title6
+           {0%{opacity: 0}
+           100%{opacity: 1}}
+
+.fog{animation: fog;
+    animation-duration: 3.7s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;}
+
+@keyframes fog
+           {0%{opacity: 1}
+           100%{opacity: 0}}
+
+.st100{animation: st100;
+    animation-duration: 9s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;}
+
+@keyframes st100
+           {0%{opacity: 0}
+           25%{opacity: 1}
+           50%{opacity: 0}
+           75%{opacity: 1}
+           100%{opacity: 0.5}}
+
+.st101{animation: st101;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;}
+
+@keyframes st101
+           {0%{opacity: 0}
+           45%{opacity: 0.9}
+           100%{opacity: 0.4}}
